@@ -2,81 +2,107 @@
 <svg xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   width="580" height="260">
-
+<pattern id="diagonalHatch" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+  <line x1="0" y1="0" x2="0" y2="10" style="stroke:black; stroke-width:1" />
+</pattern>
 
   <rect x="0" y="0" style="fill:#FFBBBB" width="580" height="260"/>
 
     <rect x="20" y="20" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="50.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="40.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="90.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="70.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="100.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="20" y="100" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="50.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="40.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="90.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="70.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="100.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="20" y="180" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="50.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="40.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="90.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="70.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="100.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="160" y="20" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="190.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="180.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="230.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="210.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="240.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="160" y="100" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="190.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="180.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="230.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="210.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="240.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="160" y="180" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="190.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="180.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="230.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="210.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="240.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="300" y="20" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="330.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="320.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="370.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="350.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="380.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="300" y="100" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="330.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="320.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="370.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="350.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="380.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="300" y="180" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="330.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="320.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="370.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="350.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="380.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="440" y="20" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="470.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="460.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="510.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="490.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="520.0" y="40.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="440" y="100" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="470.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="460.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="510.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="490.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="520.0" y="120.0" style="fill:#FF2222" width="20" height="20"/>
   
     <rect x="440" y="180" style="fill:#FFFFFF" width="120" height="60"/>
   
-      <rect x="470.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="460.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
   
-      <rect x="510.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+      <rect x="490.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
+  
+      <rect x="520.0" y="200.0" style="fill:#FF2222" width="20" height="20"/>
   
 
 </svg>

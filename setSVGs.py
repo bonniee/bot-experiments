@@ -19,6 +19,12 @@ CARD_WIDTH = 120
 SYMBOL_HEIGHT = 20
 SYMBOL_WIDTH = 20
 
+HATCHING = """<pattern id="diagonalHatch" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+  <line x1="0" y1="0" x2="0" y2="10" style="stroke:black; stroke-width:1" />
+</pattern>"""
+
+prefix += HATCHING
+
 def drawRect(x, y, color):
   return """
       <rect x="{0}" y="{1}" style="fill:#{2}" width="{3}" height="{4}"/>
@@ -26,29 +32,23 @@ def drawRect(x, y, color):
 
 def drawCardContents(x, y, num, color):
   yOffset = y + (CARD_HEIGHT / 2.0) - (SYMBOL_HEIGHT / 2.0)
-  if (num == 1):
-    return drawRect(
-      x + (CARD_WIDTH / 2.0) - (SYMBOL_WIDTH / 2.0),
-      yOffset,
-      color)
-  elif (num == 2):
-    return drawRect(
-        x + (CARD_WIDTH / 3.0) - (SYMBOL_WIDTH / 2.0),
-        yOffset,
-        color
-      ) + drawRect(
-        x + (2 * CARD_WIDTH / 3.0) - (SYMBOL_WIDTH / 2.0),
-        yOffset,
-        color
-      )
-  else:
-    return drawRect(x, y, color)
+  divisor = x + 1
+  xInterval = CARD_WIDTH / float(num + 1.0)
+  xMargin = SYMBOL_WIDTH / 2.0
+
+  coords = [(x + ((1 + i) * xInterval) - xMargin, yOffset) for i in range(num)]
+
+  ret = ""
+  for (a, b) in coords:
+    ret += drawRect(a, b, color)
+
+  return ret
 
 def mkCard(x, y):
   ret = """
     <rect x="{0}" y="{1}" style="fill:#FFFFFF" width="120" height="60"/>
   """.format(x, y)
-  ret += drawCardContents(x, y, 2, "FF2222")
+  ret += drawCardContents(x, y, 3, "FF2222")
   return ret
 
 def mkCards():
