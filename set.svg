@@ -9,64 +9,70 @@
   <rect x="0" y="0" style="fill:#FFBBBB" width="580" height="260"/>
 
     <rect x="20" y="20" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="50.0 40.0, 60.0 60.0, 40.0 60.0" style="fill:#FF2222"/>
-  <polygon points="80.0 40.0, 90.0 60.0, 70.0 60.0" style="fill:#FF2222"/>
-  <polygon points="110.0 40.0, 120.0 60.0, 100.0 60.0" style="fill:#FF2222"/>
+  
+      <rect x="40.0" y="40.0" style="fill:#FF6666" width="20" height="20" stroke-width="5"/>
+  
+      <rect x="70.0" y="40.0" style="fill:#FF6666" width="20" height="20" stroke-width="5"/>
+  
+      <rect x="100.0" y="40.0" style="fill:#FF6666" width="20" height="20" stroke-width="5"/>
   
     <rect x="20" y="100" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="50.0 120.0, 60.0 140.0, 40.0 140.0" style="fill:#FF2222"/>
-  <polygon points="80.0 120.0, 90.0 140.0, 70.0 140.0" style="fill:#FF2222"/>
-  <polygon points="110.0 120.0, 120.0 140.0, 100.0 140.0" style="fill:#FF2222"/>
+  <polygon points="80.0 120.0, 90.0 140.0, 70.0 140.0" style="fill:#6666FF" stroke-width="5"/>
   
     <rect x="20" y="180" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="50.0 200.0, 60.0 220.0, 40.0 220.0" style="fill:#FF2222"/>
-  <polygon points="80.0 200.0, 90.0 220.0, 70.0 220.0" style="fill:#FF2222"/>
-  <polygon points="110.0 200.0, 120.0 220.0, 100.0 220.0" style="fill:#FF2222"/>
+  
+      <ellipse cx="50.0" cy="210.0" style="fill:#FF6666" rx="10.0" ry="10.0" stroke-width="5"/>
+  
+      <ellipse cx="80.0" cy="210.0" style="fill:#FF6666" rx="10.0" ry="10.0" stroke-width="5"/>
+  
+      <ellipse cx="110.0" cy="210.0" style="fill:#FF6666" rx="10.0" ry="10.0" stroke-width="5"/>
   
     <rect x="160" y="20" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="190.0 40.0, 200.0 60.0, 180.0 60.0" style="fill:#FF2222"/>
-  <polygon points="220.0 40.0, 230.0 60.0, 210.0 60.0" style="fill:#FF2222"/>
-  <polygon points="250.0 40.0, 260.0 60.0, 240.0 60.0" style="fill:#FF2222"/>
+  
+      <rect x="180.0" y="40.0" style="fill:#6666FF" width="20" height="20" stroke-width="5"/>
+  
+      <rect x="210.0" y="40.0" style="fill:#6666FF" width="20" height="20" stroke-width="5"/>
+  
+      <rect x="240.0" y="40.0" style="fill:#6666FF" width="20" height="20" stroke-width="5"/>
   
     <rect x="160" y="100" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="190.0 120.0, 200.0 140.0, 180.0 140.0" style="fill:#FF2222"/>
-  <polygon points="220.0 120.0, 230.0 140.0, 210.0 140.0" style="fill:#FF2222"/>
-  <polygon points="250.0 120.0, 260.0 140.0, 240.0 140.0" style="fill:#FF2222"/>
+  
+      <ellipse cx="220.0" cy="130.0" style="fill:#FF6666" rx="10.0" ry="10.0" stroke-width="5"/>
   
     <rect x="160" y="180" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="190.0 200.0, 200.0 220.0, 180.0 220.0" style="fill:#FF2222"/>
-  <polygon points="220.0 200.0, 230.0 220.0, 210.0 220.0" style="fill:#FF2222"/>
-  <polygon points="250.0 200.0, 260.0 220.0, 240.0 220.0" style="fill:#FF2222"/>
+  
+      <rect x="210.0" y="200.0" style="fill:#66FF66" width="20" height="20" stroke-width="5"/>
   
     <rect x="300" y="20" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="330.0 40.0, 340.0 60.0, 320.0 60.0" style="fill:#FF2222"/>
-  <polygon points="360.0 40.0, 370.0 60.0, 350.0 60.0" style="fill:#FF2222"/>
-  <polygon points="390.0 40.0, 400.0 60.0, 380.0 60.0" style="fill:#FF2222"/>
+  
+      <ellipse cx="340.0" cy="50.0" style="fill:#FF6666" rx="10.0" ry="10.0" stroke-width="5"/>
+  
+      <ellipse cx="380.0" cy="50.0" style="fill:#FF6666" rx="10.0" ry="10.0" stroke-width="5"/>
   
     <rect x="300" y="100" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="330.0 120.0, 340.0 140.0, 320.0 140.0" style="fill:#FF2222"/>
-  <polygon points="360.0 120.0, 370.0 140.0, 350.0 140.0" style="fill:#FF2222"/>
-  <polygon points="390.0 120.0, 400.0 140.0, 380.0 140.0" style="fill:#FF2222"/>
+  <polygon points="360.0 120.0, 370.0 140.0, 350.0 140.0" style="fill:#FF6666" stroke-width="5"/>
   
     <rect x="300" y="180" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="330.0 200.0, 340.0 220.0, 320.0 220.0" style="fill:#FF2222"/>
-  <polygon points="360.0 200.0, 370.0 220.0, 350.0 220.0" style="fill:#FF2222"/>
-  <polygon points="390.0 200.0, 400.0 220.0, 380.0 220.0" style="fill:#FF2222"/>
+  <polygon points="340.0 200.0, 350.0 220.0, 330.0 220.0" style="fill:#FF6666" stroke-width="5"/>
+  <polygon points="380.0 200.0, 390.0 220.0, 370.0 220.0" style="fill:#FF6666" stroke-width="5"/>
   
     <rect x="440" y="20" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="470.0 40.0, 480.0 60.0, 460.0 60.0" style="fill:#FF2222"/>
-  <polygon points="500.0 40.0, 510.0 60.0, 490.0 60.0" style="fill:#FF2222"/>
-  <polygon points="530.0 40.0, 540.0 60.0, 520.0 60.0" style="fill:#FF2222"/>
+  
+      <ellipse cx="480.0" cy="50.0" style="fill:#66FF66" rx="10.0" ry="10.0" stroke-width="5"/>
+  
+      <ellipse cx="520.0" cy="50.0" style="fill:#66FF66" rx="10.0" ry="10.0" stroke-width="5"/>
   
     <rect x="440" y="100" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="470.0 120.0, 480.0 140.0, 460.0 140.0" style="fill:#FF2222"/>
-  <polygon points="500.0 120.0, 510.0 140.0, 490.0 140.0" style="fill:#FF2222"/>
-  <polygon points="530.0 120.0, 540.0 140.0, 520.0 140.0" style="fill:#FF2222"/>
+  
+      <ellipse cx="470.0" cy="130.0" style="fill:#FF6666" rx="10.0" ry="10.0" stroke-width="5"/>
+  
+      <ellipse cx="500.0" cy="130.0" style="fill:#FF6666" rx="10.0" ry="10.0" stroke-width="5"/>
+  
+      <ellipse cx="530.0" cy="130.0" style="fill:#FF6666" rx="10.0" ry="10.0" stroke-width="5"/>
   
     <rect x="440" y="180" style="fill:#FFFFFF" width="120" height="60"/>
-  <polygon points="470.0 200.0, 480.0 220.0, 460.0 220.0" style="fill:#FF2222"/>
-  <polygon points="500.0 200.0, 510.0 220.0, 490.0 220.0" style="fill:#FF2222"/>
-  <polygon points="530.0 200.0, 540.0 220.0, 520.0 220.0" style="fill:#FF2222"/>
+  <polygon points="480.0 200.0, 490.0 220.0, 470.0 220.0" style="fill:#FF6666" stroke-width="5"/>
+  <polygon points="520.0 200.0, 530.0 220.0, 510.0 220.0" style="fill:#FF6666" stroke-width="5"/>
   
 
 </svg>
