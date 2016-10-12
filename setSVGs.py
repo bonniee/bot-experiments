@@ -18,6 +18,7 @@ CARD_WIDTH = 120
 
 SYMBOL_HEIGHT = 20
 SYMBOL_WIDTH = 20
+CARD_MARGIN = 20
 
 HATCHING = """<pattern id="diagonalHatch" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
   <line x1="0" y1="0" x2="0" y2="10" style="stroke:black; stroke-width:1" />
@@ -30,9 +31,17 @@ def drawRect(x, y, color):
       <rect x="{0}" y="{1}" style="fill:#{2}" width="{3}" height="{4}"/>
   """.format(x, y, color, SYMBOL_WIDTH, SYMBOL_HEIGHT)
 
+def drawCircle(x, y, color):
+  r = SYMBOL_WIDTH / 2.0
+  cx = r + x
+  cy = r + y
+  return """
+      <ellipse cx="{0}" cy="{1}" style="fill:#{2}" rx="{3}" ry="{3}"/>
+  """.format(cx, cy, color, r)
+
+
 def drawCardContents(x, y, num, color):
   yOffset = y + (CARD_HEIGHT / 2.0) - (SYMBOL_HEIGHT / 2.0)
-  divisor = x + 1
   xInterval = CARD_WIDTH / float(num + 1.0)
   xMargin = SYMBOL_WIDTH / 2.0
 
@@ -40,7 +49,7 @@ def drawCardContents(x, y, num, color):
 
   ret = ""
   for (a, b) in coords:
-    ret += drawRect(a, b, color)
+    ret += drawCircle(a, b, color)
 
   return ret
 
@@ -55,11 +64,10 @@ def mkCards():
   rects = ""
   for i in range(4):
     for j in range(3):
-      x = (i * 140) + 20
-      y = (j * 80) + 20
+      x = (i * (CARD_WIDTH + CARD_MARGIN)) + CARD_MARGIN
+      y = (j * (CARD_HEIGHT + CARD_MARGIN)) + CARD_MARGIN
       rects += mkCard(x, y)
   return rects
-
 
 body += mkCards()
 
