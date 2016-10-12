@@ -39,6 +39,12 @@ def drawCircle(x, y, color):
       <ellipse cx="{0}" cy="{1}" style="fill:#{2}" rx="{3}" ry="{3}"/>
   """.format(cx, cy, color, r)
 
+def drawTriangle(x, y, color):
+  r = SYMBOL_WIDTH / 2.0
+  return """<polygon points="{} {}, {} {}, {} {}" style="fill:#{}"/>
+  """.format(x + r, y, x + SYMBOL_WIDTH, y + SYMBOL_HEIGHT, x, y + SYMBOL_HEIGHT, color)
+
+
 
 def drawCardContents(x, y, num, color):
   yOffset = y + (CARD_HEIGHT / 2.0) - (SYMBOL_HEIGHT / 2.0)
@@ -49,7 +55,7 @@ def drawCardContents(x, y, num, color):
 
   ret = ""
   for (a, b) in coords:
-    ret += drawCircle(a, b, color)
+    ret += drawTriangle(a, b, color)
 
   return ret
 
