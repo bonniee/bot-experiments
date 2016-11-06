@@ -1,3 +1,8 @@
+"""
+drawBoard: given an array of SET cards,
+generate an SVG of them.
+"""
+
 import itertools
 
 prefix = """

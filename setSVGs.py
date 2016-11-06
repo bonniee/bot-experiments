@@ -1,3 +1,9 @@
+"""
+Generate some number of SET boards
+and print them in Tracery format,
+for submission to Cheap Bots Done Quick.
+"""
+
 from board import drawBoard
 from random import sample
 
@@ -33,7 +39,6 @@ for shape in range(3):
 hand = sample(cards, 12)
 boardSVG = drawBoard(hand)
 
-svgs = [tracerySVG(drawBoard(sample(cards, 12))) for i in range(1)]
-
+svgs = [tracerySVG(drawBoard(sample(cards, 12))) for i in range(50)]
 
 print tracery(svgs)
